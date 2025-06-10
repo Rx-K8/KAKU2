@@ -62,6 +62,7 @@ $ docker exec -it ollama ollama pull gemma3:27b
 
 ```sh
 $ ssh cappuccino -L 3000:localhost:3000
+$ ssh cappuccino -L 11434:localhost:11434
 ```
 
 これを実行すると、計算機サーバーのポート番号 3000 番を研究室の PC のポート番号 3000 番でアクセスできるようになっています。
